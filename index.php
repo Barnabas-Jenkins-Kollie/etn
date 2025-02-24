@@ -270,7 +270,72 @@ include 'include/nav.php';
     </section>/Contact Section -->
 
 
-  <!-- Blog Start -->
+
+
+  <!-- staffs Start -->
+  <div class="container-fluid service py-5 bg-light">
+    <div class="container py-5">
+      <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+        <h2 class="text-uppercase text-danger">Meet Class of 2024</h2>
+
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-6 col-xl-3">
+          <div class="service-item">
+            <img src="assets/img/Muap.jpeg" class="img-fluid w-100 " alt="Image">
+            <div class="service-link">
+              <a href="#" class="h4 mb-0">Isaac Muapoh</a>
+            </div>
+          </div>
+          <p class="my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s,
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-3">
+          <div class="service-item">
+            <img src="assets/img/Muap.jpeg" class="img-fluid w-100 " alt="Image">
+            <div class="service-link">
+              <a href="#" class="h4 mb-0">Isaac Muapoh</a>
+            </div>
+          </div>
+          <p class="my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s,
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-3">
+          <div class="service-item">
+            <img src="assets/img/Muap.jpeg" class="img-fluid w-100 " alt="Image">
+            <div class="service-link">
+              <a href="#" class="h4 mb-0">Isaac Muapoh</a>
+            </div>
+          </div>
+          <p class="my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s,
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-3">
+          <div class="service-item">
+            <img src="assets/img/Muap.jpeg" class="img-fluid w-100 " alt="Image">
+            <div class="service-link">
+              <a href="#" class="h4 mb-0">Isaac Muapoh</a>
+            </div>
+          </div>
+          <p class="my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s,
+          </p>
+        </div>
+        <div class="col-12">
+          <div class="d-flex align-items-center justify-content-center">
+            <a class="btn-hover-bg btn btn-danger text-white py-2 px-4" href="classes/class_2024.php">View full
+              Cohort</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- staffs End -->
+
+
   <div class="container-fluid blog py-5 mb-5">
     <div class="container py-5">
       <div class="text-center mx-auto pb-5" style="max-width: 800px;">
@@ -362,7 +427,7 @@ include 'include/nav.php';
                 quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
               <i class="bi bi-quote quote-icon-right"></i>
               </p>
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+              <img src="assets/img/nextgenimg/2.jpg" class="testimonial-img" alt="">
               <h3>Saul Goodman</h3>
               <h4>Ceo &amp; Founder</h4>
             </div>
@@ -376,7 +441,7 @@ include 'include/nav.php';
                   velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
-              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+              <img src="assets/img/nextgenimg/23.jpg" class="testimonial-img" alt="">
               <h3>Sara Wilsson</h3>
               <h4>Designer</h4>
             </div>
@@ -391,8 +456,8 @@ include 'include/nav.php';
                   tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
-              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-              <h3>Jena Karlis</h3>
+              <img src="assets/img/nextgenimg/aichasirleaf.jpg" class="testimonial-img" alt="">
+              <h3>Aicha Sirleaf</h3>
               <h4>Store Owner</h4>
             </div>
           </div><!-- End testimonial item -->
@@ -405,8 +470,8 @@ include 'include/nav.php';
                   duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
-              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-              <h3>Matt Brandon</h3>
+              <img src="assets/img/nextgenimg/ziena.jpg" class="testimonial-img" alt="">
+              <h3>Ziena Kwefatie Mohandes</h3>
               <h4>Freelancer</h4>
             </div>
           </div><!-- End testimonial item -->
@@ -419,8 +484,8 @@ include 'include/nav.php';
                   culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
-              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-              <h3>John Larson</h3>
+              <img src="assets/img/nextgenimg/gnyanhzeantoe.jpg" class="testimonial-img" alt="">
+              <h3>G Nyan Zeantoe</h3>
               <h4>Entrepreneur</h4>
             </div>
           </div><!-- End testimonial item -->

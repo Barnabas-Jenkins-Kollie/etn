@@ -4,8 +4,8 @@
 <div class="container-fluid service py-5 bg-light">
     <div class="container py-5">
         <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-            <h5 class="text-uppercase text-primary">Alumini</h5>
-            <h1 class="mb-0">❖ Mentorship:</h1>
+
+            <h1 class="mb-0 text-danger">❖ Mentorship:</h1>
         </div>
         <div class="row g-4">
 
@@ -31,7 +31,7 @@
             <div class="container py-5">
                 <div class="text-center mx-auto pb-5" style="max-width: 800px;">
 
-                    <h1 class="mb-0">❖ Presidential recognition and Ministerial Recommendations</h1>
+                    <h1 class="mb-0 ">❖ Presidential recognition and Ministerial Recommendations</h1>
                 </div>
                 <div class="row g-4">
 
@@ -46,7 +46,8 @@
 
                     <div class="col-12">
                         <div class="d-flex align-items-center justify-content-center">
-                            <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">Read More</a>
+                            <a class="btn-hover-bg btn btn-primary btn-outline  text-white py-2 px-4" href="#">Read
+                                More</a>
                         </div>
                     </div>
                 </div>

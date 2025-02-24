@@ -54,7 +54,9 @@
             <ul>
 
 
-              <li><a href="https://forms.gle/GaNumWMYjEcBc8JF7" target="_blank">National Academic Excellence Award</a>
+              <li><a href="https://forms.gle/GaNumWMYjEcBc8JF7" target="_blank" class="text-danger">National Academic
+                  Excellence
+                  Award</a>
               </li>
               <li><a href="https://forms.gle/yYwtMEkx2AbNBT1Q6" target="_blank">Future Leaders Initiative</a></li>
               <li><a href="https://forms.gle/QpTxThe9fED9xbut6" target="_blank">The Scholars BootCamp</a></li>

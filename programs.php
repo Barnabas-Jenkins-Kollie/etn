@@ -5,7 +5,7 @@
     <div class="container py-5">
         <div class="row g-5">
             <div class="col-lg-7">
-                <h5 class="text-uppercase text-primary">❖ Scholars BootCamp </h5>
+                <h5 class="text-uppercase text-danger">❖ Scholars BootCamp </h5>
                 <h1 class="mb-4">Join your hand with us for a better life and beautiful future.</h1>
                 <p class="mb-4">
 
@@ -18,8 +18,8 @@
             <div class="col-lg-5">
                 <div class="row g-4">
                     <div class="col-lg-6">
-                        <div class="volunteer-img">
-                            <img src="img/learn2.jpg" class="img-fluid w-50">
+                        <div >
+                            <img src="assets/img/nextgenimg/scho" class="img-fluid w-50">
                             <div class="volunteer-title">
                                 <!-- <h5 class="mb-2 text-white">Michel Brown</h5>
                                                         <p class="mb-0 text-white">Communicator</p> -->
@@ -50,7 +50,7 @@
     <div class="container py-5">
         <div class="row g-5">
             <div class="col-lg-7">
-                <h5 class="text-uppercase text-primary">❖ Future Leaders Initiate </h5>
+                <h5 class="text-uppercase text-danger">❖ Future Leaders Initiate </h5>
                 <h1 class="mb-4">Join your hand with us for a better life and beautiful future.</h1>
                 <p class="mb-4">
 
@@ -95,7 +95,7 @@
     <div class="container py-5">
         <div class="row g-5">
             <div class="col-lg-7">
-                <h5 class="text-uppercase text-primary">❖ Liberia solutionpreneurship Program: </h5>
+                <h5 class="text-uppercase text-danger">❖ Liberia solutionpreneurship Program: </h5>
                 <h1 class="mb-4">Join your hand with us for a better life and beautiful future.</h1>
                 <p class="mb-4">
 
