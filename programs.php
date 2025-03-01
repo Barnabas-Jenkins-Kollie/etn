@@ -17,9 +17,9 @@
             </div>
             <div class="col-lg-5">
                 <div class="row g-4">
-                    <div class="col-lg-6">
-                        <div >
-                            <img src="assets/img/nextgenimg/scho" class="img-fluid w-50">
+                    <div class="col-lg-12">
+                        <div>
+                            <img src="assets/img/scholar_studying.jpg" class="img-fluid w-100">
                             <div class="volunteer-title">
                                 <!-- <h5 class="mb-2 text-white">Michel Brown</h5>
                                                         <p class="mb-0 text-white">Communicator</p> -->
@@ -28,15 +28,6 @@
                     </div>
 
 
-                    <div class="col-lg-6">
-                        <div class="volunteer-img">
-                            <img src="img/learn.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="volunteer-title">
-                                <!-- <h5 class="mb-2 text-white">Michel Brown</h5>
-                                                        <p class="mb-0 text-white">Communicator</p> -->
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -64,24 +55,13 @@
                 <div class="row g-4">
                     <div class="col-lg-6">
                         <div class="volunteer-img">
-                            <img src="img/learn2.jpg" class="img-fluid w-50">
+                            <img src="assets/img/future_leaders.webp" class="img-fluid w-100">
                             <div class="volunteer-title">
-                                <!-- <h5 class="mb-2 text-white">Michel Brown</h5>
-                                                                <p class="mb-0 text-white">Communicator</p> -->
+
                             </div>
                         </div>
                     </div>
 
-
-                    <div class="col-lg-6">
-                        <div class="volunteer-img">
-                            <img src="img/learn.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="volunteer-title">
-                                <!-- <h5 class="mb-2 text-white">Michel Brown</h5>
-                                                                <p class="mb-0 text-white">Communicator</p> -->
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -109,7 +89,7 @@
                 <div class="row g-4">
                     <div class="col-lg-6">
                         <div class="volunteer-img">
-                            <img src="img/learn2.jpg" class="img-fluid w-50">
+                            <img src="assets/img/solutionpreneur.jpg" class="img-fluid w-100">
                             <div class="volunteer-title">
                                 <!-- <h5 class="mb-2 text-white">Michel Brown</h5>
                                                                 <p class="mb-0 text-white">Communicator</p> -->
@@ -117,15 +97,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
-                        <div class="volunteer-img">
-                            <img src="img/learn.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="volunteer-title">
-                                <!-- <h5 class="mb-2 text-white">Michel Brown</h5>
-                                                                <p class="mb-0 text-white">Communicator</p> -->
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
 

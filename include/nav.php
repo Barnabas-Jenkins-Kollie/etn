@@ -1,3 +1,4 @@
+<?php include "./connection/dbcon.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -67,7 +68,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="donate.php">Donate </a>
+      <a class="btn-getstarted" href="https://donate.stripe.com/test_9AQ9Cy2NyedN78kdQQ">Donate </a>
 
     </div>
   </header>

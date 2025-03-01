@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="col-xl-7">
-                <h3 class="text-uppercase text-danger">About Us</h3>
+                <h2 class="text-uppercase text-danger">About Us</h2>
                 <h1 class="mb-4">Educate The Next Generation</h1>
                 <p class="fs-5 mb-4">Liberia, endowed with abundant natural resources, faces enduring challenges of
                     poverty and underdevelopment, exacerbated
@@ -109,7 +109,7 @@
             <h5 class="text-uppercase text-danger">Board Of Directors:</h5>
             <h1 class="mb-0">To be provided</h1>
         </div>
-        <div class="row g-4">
+        <div class="row g-4      mt-5">
             <div class="col-md-6 col-lg-6 col-xl-3">
                 <div class="service-item">
                     <img src="img/team-1.jpg" class="img-fluid w-100" alt="Image">
@@ -154,11 +154,7 @@
                     has been the industry's standard dummy text ever since the 1500s,
                 </p>
             </div>
-            <div class="col-12">
-                <div class="d-flex align-items-center justify-content-center">
-                    <a class="btn-hover-bg btn btn-danger text-white py-2 px-4" href="#">Read More</a>
-                </div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -168,9 +164,9 @@
 
 <!-- staffs Start -->
 <div class="container-fluid service py-5 bg-light">
-    <div class="container py-5">
+    <div class="container mt-5  py-5">
         <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-            <h5 class="text-uppercase text-danger">Our Staffs:</h5>
+            <h3 class="text-uppercase text-danger">Our Staffs:</h3>
             <h1 class="mb-0">To be provided</h1>
         </div>
         <div class="row g-4">

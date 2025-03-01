@@ -1,35 +1,59 @@
 <?php
+session_start();
 
-// Replace contact@example.com with your real receiving email address
-$receiving_email_address = 'contact@example.com';
+# dbcon
+include "../connection/dbcon.php";
+# dbcon
 
-if (file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php')) {
-  include($php_email_form);
-} else {
-  die('Unable to load the "PHP Email Form" Library!');
+
+// admin_name	admin_password	admin_code	admin_email	
+
+// $fullname = isset($_POST["fullname"]) ? $_POST["fullname"] : null;
+// $email = isset($_POST["email"]) ? $_POST["email"] : null;
+// $subject = isset($_POST["subject"]) ? $_POST["subject"] : null;
+// $message = isset($_POST["message"]) ? $_POST["message"] : null;
+
+if (isset($_POST["submit"])) {
+  $fullname = isset($_POST["fullname"]) ? $_POST["fullname"] : null;
+  $email = isset($_POST["email"]) ? $_POST["email"] : null;
+  $subject = isset($_POST["subject"]) ? $_POST["subject"] : null;
+  $message = isset($_POST["message"]) ? $_POST["message"] : null;
+  // $fullname = mysqli_real_escape_string($dbcon, $_POST['fullname']);
+  // $email = mysqli_real_escape_string($dbcon, $_POST['email']);
+  // $subject = mysqli_real_escape_string($dbcon, $_POST['subject']);
+  // $message = mysqli_real_escape_string($dbcon, $_POST['message']);
+
+
+
+  if (empty($fullname) && empty($email) && empty($subject) && empty($message)) {
+    echo '<script>alert("please fill all the fields")</script>';
+    exit();
+  } else {
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      echo '<script>alert("invalid email")</script>';
+      return;
+    } else {
+      // Check if email is already taken
+      $stmt = $dbcon->prepare("SELECT * FROM `contacts` WHERE email = ?");
+      $stmt->bind_param("s", $email);
+      $stmt->execute();
+      $result = $stmt->get_result();
+      $checking = $result->num_rows;
+      $stmt->close();
+
+      if ($checking > 0) {
+        echo '<script>alert("email already exist")</script>';
+
+      } else {
+        // Insert user using prepared statement
+        $stmt = $dbcon->prepare("INSERT INTO `contacts` (fullname,email,subject,message) VALUES (?, ?, ?, ?)");
+        $stmt->bind_param("ssss", $fullname, $email, $subject, $message);
+        $stmt->execute();
+        $stmt->close();
+
+        echo "<script>alert('message send successfully')</script>";
+        echo "<script>location.href = 'contact.php'</script>";
+      }
+    }
+  }
 }
-
-$contact = new PHP_Email_Form;
-$contact->ajax = true;
-
-$contact->to = $receiving_email_address;
-$contact->from_name = $_POST['name'];
-$contact->from_email = $_POST['email'];
-$contact->subject = $_POST['subject'];
-
-// Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-/*
-$contact->smtp = array(
-  'host' => 'example.com',
-  'username' => 'example',
-  'password' => 'pass',
-  'port' => '587'
-);
-*/
-
-$contact->add_message($_POST['name'], 'From');
-$contact->add_message($_POST['email'], 'Email');
-$contact->add_message($_POST['message'], 'Message', 10);
-
-echo $contact->send();
-?>
