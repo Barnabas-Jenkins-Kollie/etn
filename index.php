@@ -279,54 +279,112 @@ include 'include/nav.php';
         <h2 class="text-uppercase text-danger">Meet Class of 2024</h2>
 
       </div>
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-6 col-xl-3">
+      <div class="row gy-7">
+        <div class="col-md-4 col-lg-6 col-xl-3">
           <div class="service-item">
-            <img src="assets/img/Muap.jpeg" class="img-fluid w-100 " alt="Image">
+            <img src="assets/img/nextgenimg/alexandergambleh.jpg" class="img-fluid w-100 " alt="Image"
+              style="max-width: 200px;">
             <div class="service-link">
-              <a href="#" class="h4 mb-0">Isaac Muapoh</a>
+              <a href="#" class="h5 mb-0">Alexander Gambleh</a>
+              </a>
             </div>
           </div>
-          <p class="my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+          <p class="my-4" style="max-width: 200px;">Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s,
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-6 col-xl-3">
+          <div class="service-item">
+            <img src="assets/img/nextgenimg/christianatamba.jpg" class="img-fluid w-100 " alt="Image"
+              style="max-width: 200px;">
+            <div class="service-link">
+              <a href="#" class="h5 mb-0">Christian Tamba</a>
+            </div>
+          </div>
+          <p class="my-4" style="max-width: 200px;">Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s,
+          </p>
+        </div>
+        <div class="col-md-4 col-lg- col-xl-3">
+          <div class="service-item">
+            <img src="assets/img/nextgenimg/emmanueldaniel.jpg" class="img-fluid w-100 " alt="Image"
+              style="max-width: 200px;">
+            <div class="service-link">
+              <a href="#" class="h5 mb-0">Emmanuel Daniel</a>
+            </div>
+          </div>
+          <p class="my-4" style="max-width: 200px;">Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s,
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-6 col-xl-3">
+          <div class="service-item">
+            <img src="assets/img/nextgenimg/aichasirleaf.jpg" class="img-fluid w-100 " alt="Image"
+              style="max-width: 200px;">
+            <div class="service-link">
+              <a href="#" class="h5 mb-0 text-center">Aicha Sirleaf</a>
+            </div>
+          </div>
+          <p class="my-4" style="max-width: 200px;">Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s,
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-6 col-xl-3">
+          <div class="service-item">
+            <img src="assets/img/nextgenimg/abrahamkessellie.jpg" class="img-fluid w-100 " alt="Image"
+              style="max-width: 200px;">
+            <div class="service-link">
+              <a href="#" class="h5 mb-0">Abraham Kessellie Jr</a>
+            </div>
+          </div>
+          <p class="my-4" style="max-width: 200px;">Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum
             has been the industry's standard dummy text ever since the 1500s,
           </p>
         </div>
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="service-item">
-            <img src="assets/img/Muap.jpeg" class="img-fluid w-100 " alt="Image">
+            <img src="assets/img/nextgenimg/2.jpg" class="img-fluid w-100 " alt="Image" style="max-width: 200px;">
             <div class="service-link">
-              <a href="#" class="h4 mb-0">Isaac Muapoh</a>
+              <a href="#" class="h5 mb-0">Isaac Muapoh</a>
             </div>
           </div>
-          <p class="my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+          <p class="my-4" style="max-width: 200px;">Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum
             has been the industry's standard dummy text ever since the 1500s,
           </p>
         </div>
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="service-item">
-            <img src="assets/img/Muap.jpeg" class="img-fluid w-100 " alt="Image">
+            <img src="assets/img/nextgenimg/2.jpg" class="img-fluid w-100 " alt="Image" style="max-width: 200px;">
             <div class="service-link">
-              <a href="#" class="h4 mb-0">Isaac Muapoh</a>
+              <a href="#" class="h5 mb-0">Isaac Muapoh</a>
             </div>
           </div>
-          <p class="my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+          <p class="my-4" style="max-width: 200px;">Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum
             has been the industry's standard dummy text ever since the 1500s,
           </p>
         </div>
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="service-item">
-            <img src="assets/img/Muap.jpeg" class="img-fluid w-100 " alt="Image">
+            <img src="assets/img/nextgenimg/2.jpg" class="img-fluid w-100 " alt="Image" style="max-width: 200px;">
             <div class="service-link">
-              <a href="#" class="h4 mb-0">Isaac Muapoh</a>
+              <a href="#" class="h5 mb-0">Isaac Muapoh</a>
             </div>
           </div>
-          <p class="my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+          <p class="my-4" style="max-width: 200px;">Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum
             has been the industry's standard dummy text ever since the 1500s,
           </p>
         </div>
         <div class="col-12">
           <div class="d-flex align-items-center justify-content-center">
-            <a class="btn-hover-bg btn btn-danger text-white py-2 px-4" href="classes/class_2024.php">View full
+            <a class="btn-hover-bg btn btn-danger text-white py-2 px-4" href="class2024.php">View full
               Cohort</a>
           </div>
         </div>

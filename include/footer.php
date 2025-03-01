@@ -10,16 +10,7 @@
           <p>Subscribe to our newsletter and receive the latest news from ETN</p>
 
           <a href="https://forms.gle/tdeLYz86pE1q2yrs8" class="btn btn-danger">Sign Up</a>
-          <!-- <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form"><input type="text" name="email" placeholder="name">
-            </div>
-            <div class="newsletter-form"><input type="email" name="email" placeholder="email"><input type="submit"
-                value="Subscribe">
-            </div>
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-          </form> -->
+
         </div>
       </div>
     </div>
@@ -51,7 +42,7 @@
         <p>Our Social media handles</p>
         <div class="social-links d-flex">
           <a href=""><i class="bi bi-twitter-x"></i></a>
-          <a href=""><i class="bi bi-facebook"></i></a>
+          <a href="https://www.facebook.com/Repfrankfoko/"><i class="bi bi-facebook"></i></a>
           <a href=""><i class="bi bi-instagram"></i></a>
           <a href=""><i class="bi bi-linkedin"></i></a>
         </div>
@@ -61,7 +52,8 @@
   </div>
 
   <div class="container copyright text-center mt-4">
-    <p>© <span>Copyright</span> <strong class="px-1 sitename">ETN</strong> <span>All Rights Reserved</span></p>
+    <p>© <span>Copyright</span> <strong class="px-1 sitename">ETN</strong> <span>All Rights Reserved</span>
+    </p>
 
   </div>
 
