@@ -8,6 +8,6 @@ $dbcon = new mysqli(DBHOST, DBUSER, DBPASS, DBNAME);
 if (!$dbcon) {
     echo "db fail";
 } else {
-    echo "db connected successfully!";
+
 
 }

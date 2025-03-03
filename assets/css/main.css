@@ -48,7 +48,7 @@
   --background-color: #10bc69;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #14eb83;
+  --surface-color: #eb5114;
   --contrast-color: #ffffff;
 }
 
@@ -102,7 +102,7 @@ h6 {
 .php-email-form .sent-message {
   display: none;
   color: #ffffff;
-  background: #059652;
+  background: #e04e05;
   text-align: center;
   padding: 15px;
   margin-bottom: 24px;

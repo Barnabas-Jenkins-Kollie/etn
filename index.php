@@ -113,164 +113,6 @@ include 'include/nav.php';
 
 
 
-  <!-- 
-    Team Section
-    <section id="team" class="team section">
-
-      Section Title
-      <div class="container section-title" data-aos="fade-up">
-        <span>Section Title</span>
-        <h2>Team</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div>End Section Title
-
-      <div class="container">
-
-        <div class="row gy-5">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>End Team Member
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>End Team Member
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>End Team Member
-
-        </div>
-
-      </div>
-
-    </section>/Team Section -->
-
-  <!-- Contact Section
-    <section id="contact" class="contact section">
-
-      Section Title
-      <div class="container section-title" data-aos="fade-up">
-        <span>Section Title</span>
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div>End Section Title
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-5">
-
-            <div class="info-wrap">
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
-                </div>
-              </div>End Info Item
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Call Us</h3>
-                  <p>+1 5589 55488 55</p>
-                </div>
-              </div>End Info Item
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email Us</h3>
-                  <p>info@example.com</p>
-                </div>
-              </div>End Info Item
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-
-          <div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <label for="name-field" class="pb-2">Your Name</label>
-                  <input type="text" name="name" id="name-field" class="form-control" required="">
-                </div>
-
-                <div class="col-md-6">
-                  <label for="email-field" class="pb-2">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="subject-field" class="pb-2">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="message-field" class="pb-2">Message</label>
-                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div>End Contact Form
-
-        </div>
-
-      </div>
-
-    </section>/Contact Section -->
-
-
-
 
   <!-- staffs Start -->
   <div class="container-fluid service py-5 bg-light">
@@ -280,20 +122,7 @@ include 'include/nav.php';
 
       </div>
       <div class="row gy-7">
-        <div class="col-md-4 col-lg-6 col-xl-3">
-          <div class="service-item">
-            <img src="assets/img/nextgenimg/alexandergambleh.jpg" class="img-fluid w-100 " alt="Image"
-              style="max-width: 200px;">
-            <div class="service-link">
-              <a href="#" class="h5 mb-0">Alexander Gambleh</a>
-              </a>
-            </div>
-          </div>
-          <p class="my-4" style="max-width: 200px;">Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum
-            has been the industry's standard dummy text ever since the 1500s,
-          </p>
-        </div>
+
         <div class="col-md-4 col-lg-6 col-xl-3">
           <div class="service-item">
             <img src="assets/img/nextgenimg/christianatamba.jpg" class="img-fluid w-100 " alt="Image"
@@ -301,10 +130,18 @@ include 'include/nav.php';
             <div class="service-link">
               <a href="#" class="h5 mb-0">Christian Tamba</a>
             </div>
+            <div class="service-link">
+              <a href="#" class="h6 mb-0">
+
+                <em class="text-danger" ss>Best Brains Academy</em>
+              </a>
+            </div>
+            <div class="service-link">
+              <a href="#" class="h6 mb-0">Montserrado County</a>
+            </div>
           </div>
-          <p class="my-4" style="max-width: 200px;">Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum
-            has been the industry's standard dummy text ever since the 1500s,
+          <p class="my-4" style="max-width: 200px;">Christina S. Tamba is a Youth Exchange and Study Program
+            (YES) fellow experiencing life in America.
           </p>
         </div>
         <div class="col-md-4 col-lg- col-xl-3">
@@ -314,43 +151,56 @@ include 'include/nav.php';
             <div class="service-link">
               <a href="#" class="h5 mb-0">Emmanuel Daniel</a>
             </div>
-          </div>
-          <p class="my-4" style="max-width: 200px;">Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum
-            has been the industry's standard dummy text ever since the 1500s,
-          </p>
-        </div>
-        <div class="col-md-4 col-lg-6 col-xl-3">
-          <div class="service-item">
-            <img src="assets/img/nextgenimg/aichasirleaf.jpg" class="img-fluid w-100 " alt="Image"
-              style="max-width: 200px;">
             <div class="service-link">
-              <a href="#" class="h5 mb-0 text-center">Aicha Sirleaf</a>
+              <em>
+
+                <a href="#" class="h6 mb-0 text-danger">Joy Of Learning</a>
+              </em>
+            </div>
+            <div class="service-link">
+              <a href="#" class="h6 mb-0">Montserrado County</a>
             </div>
           </div>
-          <p class="my-4" style="max-width: 200px;">Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum
-            has been the industry's standard dummy text ever since the 1500s,
+          <p class="my-4" style="max-width: 200px;">Emmanuel k. Daniel is passionate about healing and helping others,
+            this passion has inspired the path to becoming a Medical Doctor
           </p>
         </div>
+
         <div class="col-md-4 col-lg-6 col-xl-3">
           <div class="service-item">
             <img src="assets/img/nextgenimg/abrahamkessellie.jpg" class="img-fluid w-100 " alt="Image"
               style="max-width: 200px;">
             <div class="service-link">
               <a href="#" class="h5 mb-0">Abraham Kessellie Jr</a>
+              <div class="service-link">
+                <em>
+
+                  <a href="#" class="h6 mb-0 text-danger">St. Joseph Catholic Mission <br> High School</a>
+                </em>
+              </div>
+              <div class="service-link">
+                <a href="#" class="h6 mb-0">Lofa</a>
+              </div>
             </div>
           </div>
-          <p class="my-4" style="max-width: 200px;">Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum
-            has been the industry's standard dummy text ever since the 1500s,
+          <p class="my-4" style="max-width: 200px;">Abraham Kessellie Jr. identifies as a leader of his generation.
+            He served as Student Council President of his graduating class (2023-2024)
           </p>
         </div>
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="service-item">
             <img src="assets/img/nextgenimg/2.jpg" class="img-fluid w-100 " alt="Image" style="max-width: 200px;">
             <div class="service-link">
-              <a href="#" class="h5 mb-0">Isaac Muapoh</a>
+              <a href="#" class="h5 mb-0">Mariam Balde</a>
+              <div class="service-link">
+                <em>
+
+                  <a href="#" class="h6 mb-0 text-danger">United Islamic School of Liberia</a>
+                </em>
+              </div>
+              <div class="service-link">
+                <a href="#" class="h6 mb-0">Montserrado</a>
+              </div>
             </div>
           </div>
           <p class="my-4" style="max-width: 200px;">Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -358,30 +208,7 @@ include 'include/nav.php';
             has been the industry's standard dummy text ever since the 1500s,
           </p>
         </div>
-        <div class="col-md-6 col-lg-6 col-xl-3">
-          <div class="service-item">
-            <img src="assets/img/nextgenimg/2.jpg" class="img-fluid w-100 " alt="Image" style="max-width: 200px;">
-            <div class="service-link">
-              <a href="#" class="h5 mb-0">Isaac Muapoh</a>
-            </div>
-          </div>
-          <p class="my-4" style="max-width: 200px;">Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum
-            has been the industry's standard dummy text ever since the 1500s,
-          </p>
-        </div>
-        <div class="col-md-6 col-lg-6 col-xl-3">
-          <div class="service-item">
-            <img src="assets/img/nextgenimg/2.jpg" class="img-fluid w-100 " alt="Image" style="max-width: 200px;">
-            <div class="service-link">
-              <a href="#" class="h5 mb-0">Isaac Muapoh</a>
-            </div>
-          </div>
-          <p class="my-4" style="max-width: 200px;">Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum
-            has been the industry's standard dummy text ever since the 1500s,
-          </p>
-        </div>
+
         <div class="col-12">
           <div class="d-flex align-items-center justify-content-center">
             <a class="btn-hover-bg btn btn-danger text-white py-2 px-4" href="class2024.php">View full
@@ -404,29 +231,29 @@ include 'include/nav.php';
 
       <div class="row g-3 ">
 
-        <div class="col-lg-6   col-xl-3">
-          <div class="btn btn-danger"><a href=""></a>Class of 2024</div>
+        <div class="col-lg-6 col-xl-3">
+          <div><a href="class2024.php" class="btn btn-danger  text-white">Class of 2024</a></div>
         </div>
         <div class="col-lg-6 col-xl-3">
-          <div class="btn btn-danger">Class of 2023</div>
+          <div><a href="class2023.php" class="btn btn-danger  text-white">Class of 2023</a></div>
         </div>
         <div class="col-lg-6 col-xl-3">
-          <div class="btn btn-danger">Class of 2022</div>
+          <div><a href="class2022.php" class="btn btn-danger  text-white">Class of 2022</a></div>
         </div>
         <div class="col-lg-6 col-xl-3">
-          <div class="btn btn-danger">Class of 2021</div>
+          <div><a href="class2019.php" class="btn btn-danger  text-white">Class of 2019</a></div>
         </div>
         <div class="col-lg-6 col-xl-3">
-          <div class="btn btn-danger">Class of 2018</div>
+          <div><a href="class2018.php" class="btn btn-danger  text-white">Class of 2018</a></div>
         </div>
         <div class="col-lg-6 col-xl-3">
-          <div class="btn btn-danger">Class of 2017</div>
+          <div><a href="class2017.php" class="btn btn-danger  text-white">Class of 2017</a></div>
         </div>
         <div class="col-lg-6 col-xl-3">
-          <div class="btn btn-danger">Class of 2016</div>
+          <div><a href="class2016.php" class="btn btn-danger  text-white">Class of 2016</a></div>
         </div>
         <div class="col-lg-6 col-xl-3">
-          <div class="btn btn-danger">Class of 2015</div>
+          <div><a href="class2015.php" class="btn btn-danger  text-white">Class of 2015</a></div>
         </div>
       </div>
 

@@ -59,9 +59,21 @@
                   Excellence
                   Award</a>
               </li>
-              <li><a href="https://forms.gle/yYwtMEkx2AbNBT1Q6" target="_blank">Future Leaders Initiative</a></li>
-              <li><a href="https://forms.gle/QpTxThe9fED9xbut6" target="_blank">The Scholars BootCamp</a></li>
-              <li><a href="https://forms.gle/QqVawGz5MbGNgLT78" target="_blank">Mandela Rhodes Foundation</a></li>
+              <li><a href="https://forms.gle/yYwtMEkx2AbNBT1Q6" target="_blank" class="text-danger">Future Leaders
+                  Initiative</a></li>
+              <li><a href="https://forms.gle/QpTxThe9fED9xbut6" target="_blank" class="text-danger">The Scholars
+                  BootCamp</a></li>
+              <li><a href="https://forms.gle/QqVawGz5MbGNgLT78" target="_blank" class="text-danger">Mandela Rhodes
+                  Foundation</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#"><span>Get Involve</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#" target="_blank">Hire a Scholar</a></li>
+              <li><a href="#" target="_blank">Sponsor a Scholar</a></li>
+
             </ul>
           </li>
         </ul>
